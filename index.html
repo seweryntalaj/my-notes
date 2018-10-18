@@ -5,18 +5,31 @@
         <meta name="keywords" content="notes, sticky notes, javascript">
         <meta name="description" content="My notes in javascript by Seweryn91 @github">
         <link rel="stylesheet" href="css/styles.css">
-        <script src="js/script.js"></script>
+        <link href="https://fonts.googleapis.com/css?family=Annie Use Your Telescope" rel="stylesheet">
+        
         <title>My notes by Seweryn Tałaj</title>
     </head>
 
     <body>
         <header>My notes</header>
-        <div id="desktop">
+        <div id="top-panel">
+            Click "Add note" to create new note.<br>
+            Click "Delete all" to clear all notes and refresh this page.
 
+            <div id="buttons">
+                <button id="add">Add note</button>
+                <button id="clear">Delete all</button>
+            </div>
 
         </div>
+
+        <div id="desktop">
+            <!--notes go here!-->
+        </div>
+
         <div class="footer">
             by Seweryn Tałaj <a href="https://github.com/Seweryn91">on github</a>.
         </div>
+        <script src="js/script.js"></script>
     </body>
 </html>
